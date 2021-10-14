@@ -6,7 +6,7 @@
           <div class="menu d-flex flex-column align-items-start pt-5 ">
             <h2 class="title me-md-2">Acesse sua conta:</h2>
 
-            <form action="model/login_model.php" method="POST">
+            <form action="<?= base_url('login/login')?>" method="POST">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email:</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email_usuario">

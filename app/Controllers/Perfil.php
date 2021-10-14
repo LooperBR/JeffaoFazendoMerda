@@ -6,6 +6,8 @@ class Perfil extends BaseController
 {
     public function index()
     {
+        session_start();
+
         if((!isset($_SESSION['email_usuario']) == true) and (!isset($_SESSION['senha']) == true))
         {
             unset($_SESSION['email_usuario']);

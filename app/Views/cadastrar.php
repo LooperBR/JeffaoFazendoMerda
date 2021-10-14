@@ -6,7 +6,7 @@
         <h2 class="d-flex title pt-3">Criar uma conta:</h2>
         <h4 class="d-flex justify-content-center  subtitle"> Crie sua conta e acesse os conteúdos do nosso site! </h4>
         
-        <form class="m-4" action="<?= base_url('login/cadastra_usuario')?>model/cad_model.php" method="POST">
+        <form class="m-4" action="<?= base_url('login/cadastra_usuario')?>" method="POST">
           <!-- dados pessoais -->
           <div class="mb-3">
             <label for="p_nome" class="form-label">Primeiro Nome:</label>

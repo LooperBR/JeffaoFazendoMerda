@@ -244,7 +244,7 @@ body, html
 {
     color: #fff;
     position: relative;
-    background: url(img/bgimg-login.png);
+    background: url(../img/bgimg-login.png);
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
